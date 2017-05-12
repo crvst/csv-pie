@@ -62,8 +62,6 @@
 (defn string-eq-number? [s]
   (= (str (parse-int s)) (str s)))
 
-(println (string-eq-number? "fjjf"))
-
 (defn encode-file-to-uri [data type]
   "Generates a date URI from a file"
   (str "data:attachment/" type "," (js/encodeURIComponent (clj->js data))))

@@ -1,6 +1,6 @@
 (defproject csv-pie "0.1.0"
   :description "Simple CSV viewer"
-  :url "http://example.com/FIXME"
+  :url "https://csv-pie.herokuapp.com/"
   :license
   {:name "Eclipse Public License"
    :url  "http://www.eclipse.org/legal/epl-v10.html"}
@@ -16,7 +16,6 @@
                  [environ "1.0.3"]
                  [reagent "0.6.0-rc"]
                  [cljsjs/chartjs "2.5.0-0"]]
-
   :plugins [[lein-cljsbuild "1.1.3"]
             [lein-environ "1.0.3"]
             [lein-npm "0.6.2"]
